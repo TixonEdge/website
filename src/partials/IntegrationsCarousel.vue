@@ -4,7 +4,7 @@
   <div class="stellar-carousel swiper-container group">
     <div class="swiper-wrapper w-fit">
       <!-- Carousel items -->
-      <div class="swiper-slide h-auto bg-linear-to-tr from-slate-800 to-slate-800/25 rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
+      <div class="swiper-slide h-auto bg-black rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
         <div class="flex flex-col p-5 h-full">
           <div class="flex items-center space-x-3 mb-3">
             <div class="relative">
@@ -34,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide h-auto bg-linear-to-tr from-slate-800 to-slate-800/25 rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
+      <div class="swiper-slide h-auto bg-black rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
         <div class="flex flex-col p-5 h-full">
           <div class="flex items-center space-x-3 mb-3">
             <div class="relative">
@@ -68,7 +68,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide h-auto bg-linear-to-tr from-slate-800 to-slate-800/25 rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
+      <div class="swiper-slide h-auto bg-black rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
         <div class="flex flex-col p-5 h-full">
           <div class="flex items-center space-x-3 mb-3">
             <div class="relative">
@@ -97,7 +97,7 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide h-auto bg-linear-to-tr from-slate-800 to-slate-800/25 rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
+      <div class="swiper-slide h-auto bg-black rounded-3xl border border-slate-800 hover:border-slate-700/60 transition-colors group relative">
         <div class="flex flex-col p-5 h-full">
           <div class="flex items-center space-x-3 mb-3">
             <div class="relative">

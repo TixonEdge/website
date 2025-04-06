@@ -11,8 +11,8 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2 bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">应用场景</h2>
-          <p class="text-lg text-slate-400">解锁不为人知的多元盈利场景，打造去中心化物联网与计算的商业生态</p>
+          <h2 class="h2 bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Application scenarios</h2>
+          <p class="text-lg text-slate-400">Unlocking untapped diverse profit scenarios to create a decentralized IoT and computing business ecosystem.</p>
         </div>
 
         <!-- Highlighted boxes -->
@@ -34,7 +34,7 @@
             <!-- Box #1 -->
             <div class="md:col-span-12" data-aos="fade-down">
               <HighlighterItem>
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <div class="flex flex-col md:flex-row md:items-center md:justify-between">
                     <!-- Blurred shape -->
                     <div class="absolute right-0 top-0 blur-2xl" aria-hidden="true">
@@ -59,17 +59,17 @@
                     <div class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8 md:pr-0">
                       <div class="mb-5">
                         <div>
-                          <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">分布式AI训练</h3>
-                          <p class="text-slate-400">初创公司利用全球10万台手机的闲置算力训练轻量级AI模型，成本比云计算降低70%。</p>
+                          <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Distributed AI training</h3>
+                          <p class="text-slate-400">Startups leverage the idle computing power of 100,000 smartphones worldwide to train lightweight AI models, reducing costs by 70% compared to cloud computing.</p>
                         </div>
                       </div>
-                      <div>
-                        <a class="btn-sm text-slate-300 hover:text-white transition duration-150 ease-in-out group [background:linear-gradient(var(--color-slate-900),var(--color-slate-900))_padding-box,conic-gradient(var(--color-slate-400),var(--color-slate-700)_25%,var(--color-slate-700)_75%,var(--color-slate-400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" href="#0">
+                      <!-- <div>
+                        <a class="btn-sm text-slate-300 hover:text-white transition duration-150 ease-in-out group [background:linear-gradient(var(--color-slate-900),var(--color-slate-900))_padding-box,conic-gradient(var(--color-slate-400),var(--color-slate-700)_25%,var(--color-slate-700)_75%,var(--color-slate-400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" >
                           <span class="relative inline-flex items-center">
                             Learn more <span class="tracking-normal text-green-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                           </span>
                         </a>
-                      </div>
+                      </div> -->
                     </div>
                     <!-- Image -->
                     <div class="relative w-full h-64 md:h-auto overflow-hidden">
@@ -77,6 +77,10 @@
                         <Vue3Lottie :animationData="AIJSON" :height="400" :width="504" />
                       </div>
                       <!-- <img class="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:relative md:left-0 md:translate-x-0" src="../images/feature-image-01.svg" width="504" height="400" alt="Feature 01"> -->
+                      <!-- <Spline
+                          scene="/scene.splinecode"
+                          class="mt-0 md:mt-24 size-full w-full h-full md:h-120 md:w-120"
+                        /> -->
                     </div>
                   </div>
                 </div>
@@ -85,7 +89,7 @@
             <!-- Box #2 -->
             <div class="md:col-span-7" data-aos="fade-down">
               <HighlighterItem>
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
                     <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
@@ -94,15 +98,20 @@
                     <!-- Text -->
                     <div class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                       <div>
-                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">灾难应急通信</h3>
-                        <p class="text-slate-400">灾区用户手机自动切换为轻节点模式，通过Mesh网络提供临时通信链路，救援队支付$TIXON优先使用带宽。</p>
+                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Disaster emergency communication</h3>
+                        <p class="text-slate-400">In disaster areas, users' phones automatically switch to lightweight node mode, providing temporary communication links through a Mesh network. Rescue teams pay $TIXON for prioritized bandwidth usage.</p>
                       </div>
                     </div>
                     <!-- Image -->
                     <div class="relative w-full h-64 md:h-auto overflow-hidden md:pb-8">
                       <!-- <img class="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0" src="../images/feature-image-02.png" width="536" height="230" alt="Feature 02"> -->
-                      <div class="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:-left-20 md:translate-x-0">
-                        <Vue3Lottie :animationData="SOSJSON" :height="230" :width="836" />
+                      <div class="flex justify-center">
+                        <!-- <Vue3Lottie :animationData="SOSJSON" :height="230" :width="836" /> -->
+                        <GithubGlobe
+                          :globe-config="globeConfig"
+                          :data="sampleArcs"
+                          class="h-64 w-64 md:h-120 md:w-120"
+                        />
                       </div>
                       
                     </div>
@@ -113,7 +122,7 @@
             <!-- Box #3 -->
             <div class="md:col-span-5" data-aos="fade-down">
               <HighlighterItem>
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <div class="flex flex-col">
                     <!-- Radial gradient -->
                     <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
@@ -122,8 +131,8 @@
                     <!-- Text -->
                     <div class="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                       <div>
-                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">城市环境监测</h3>
-                        <p class="text-slate-400">市政部门购买TixonEdge的空气质量数据，实时生成污染热力图，成本仅为传统监测站的1/10。</p>
+                        <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Urban environmental monitoring.</h3>
+                        <p class="text-slate-400">Municipalities purchase air quality data from TixonEdge, generating real-time pollution heatmaps at just one-tenth the cost of traditional monitoring stations.</p>
                       </div>
                     </div>
                     <!-- Image -->
@@ -217,7 +226,405 @@ import { Vue3Lottie } from 'vue3-lottie'
 import AIJSON from '../images/animation-ai.json'
 import SOSJSON from '../images/animation-sos.json'
 import GREENJSON from '../images/animation-green.json'
+import GithubGlobe from './GithubGlobe.vue'
+import Spline from './Spline.vue'
+const globeConfig = {
+  pointSize: 1,
+  globeColor: "#0b43bd",
+  showAtmosphere: true,
+  atmosphereColor: "#FFFFFF",
+  atmosphereAltitude: 0.1,
+  emissive: "#062056",
+  emissiveIntensity: 0.1,
+  shininess: 0.9,
+  polygonColor: "rgba(255,255,255,1)",
+  ambientLight: "#38bdf8",
+  directionalLeftLight: "#ffffff",
+  directionalTopLight: "#ffffff",
+  pointLight: "#ffffff",
+  arcTime: 1000,
+  arcLength: 1,
+  rings: 1,
+  maxRings: 10,
+  initialPosition: { lat: 22.3193, lng: 114.1694 },
+  autoRotate: true,
+  autoRotateSpeed: 0.5,
+};
 
+const colors = [
+  "#eae547",
+  "#9347ea",
+  "#d4ea47",
+  "#ddea47",
+  "#47ea70",
+  "#eab447",
+  "#eaa647",
+  "#c747ea",
+  "#52ea47",
+  "#4754ea",
+];
+const sampleArcs = [
+  {
+    order: 1,
+    startLat: -19.885592,
+    startLng: -43.951191,
+    endLat: -22.9068,
+    endLng: -43.1729,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 1,
+    startLat: 28.6139,
+    startLng: 77.209,
+    endLat: 3.139,
+    endLng: 101.6869,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 1,
+    startLat: -19.885592,
+    startLng: -43.951191,
+    endLat: -1.303396,
+    endLng: 36.852443,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 2,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: 35.6762,
+    endLng: 139.6503,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 2,
+    startLat: 51.5072,
+    startLng: -0.1276,
+    endLat: 3.139,
+    endLng: 101.6869,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 2,
+    startLat: -15.785493,
+    startLng: -47.909029,
+    endLat: 36.162809,
+    endLng: -115.119411,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 3,
+    startLat: -33.8688,
+    startLng: 151.2093,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 3,
+    startLat: 21.3099,
+    startLng: -157.8581,
+    endLat: 40.7128,
+    endLng: -74.006,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 3,
+    startLat: -6.2088,
+    startLng: 106.8456,
+    endLat: 51.5072,
+    endLng: -0.1276,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 4,
+    startLat: 11.986597,
+    startLng: 8.571831,
+    endLat: -15.595412,
+    endLng: -56.05918,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 4,
+    startLat: -34.6037,
+    startLng: -58.3816,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 4,
+    startLat: 51.5072,
+    startLng: -0.1276,
+    endLat: 48.8566,
+    endLng: -2.3522,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 5,
+    startLat: 14.5995,
+    startLng: 120.9842,
+    endLat: 51.5072,
+    endLng: -0.1276,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 5,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: -33.8688,
+    endLng: 151.2093,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 5,
+    startLat: 34.0522,
+    startLng: -118.2437,
+    endLat: 48.8566,
+    endLng: -2.3522,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 6,
+    startLat: -15.432563,
+    startLng: 28.315853,
+    endLat: 1.094136,
+    endLng: -63.34546,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 6,
+    startLat: 37.5665,
+    startLng: 126.978,
+    endLat: 35.6762,
+    endLng: 139.6503,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 6,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: 51.5072,
+    endLng: -0.1276,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 7,
+    startLat: -19.885592,
+    startLng: -43.951191,
+    endLat: -15.595412,
+    endLng: -56.05918,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 7,
+    startLat: 48.8566,
+    startLng: -2.3522,
+    endLat: 52.52,
+    endLng: 13.405,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 7,
+    startLat: 52.52,
+    startLng: 13.405,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 8,
+    startLat: -8.833221,
+    startLng: 13.264837,
+    endLat: -33.936138,
+    endLng: 18.436529,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 8,
+    startLat: 49.2827,
+    startLng: -123.1207,
+    endLat: 52.3676,
+    endLng: 4.9041,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 8,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: 40.7128,
+    endLng: -74.006,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 9,
+    startLat: 51.5072,
+    startLng: -0.1276,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 9,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: -22.9068,
+    endLng: -43.1729,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 9,
+    startLat: 1.3521,
+    startLng: 103.8198,
+    endLat: -34.6037,
+    endLng: -58.3816,
+    arcAlt: 0.5,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 10,
+    startLat: -22.9068,
+    startLng: -43.1729,
+    endLat: 28.6139,
+    endLng: 77.209,
+    arcAlt: 0.7,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 10,
+    startLat: 34.0522,
+    startLng: -118.2437,
+    endLat: 31.2304,
+    endLng: 121.4737,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 10,
+    startLat: -6.2088,
+    startLng: 106.8456,
+    endLat: 52.3676,
+    endLng: 4.9041,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 11,
+    startLat: 41.9028,
+    startLng: 12.4964,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 11,
+    startLat: -6.2088,
+    startLng: 106.8456,
+    endLat: 31.2304,
+    endLng: 121.4737,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 11,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: 1.3521,
+    endLng: 103.8198,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 12,
+    startLat: 34.0522,
+    startLng: -118.2437,
+    endLat: 37.7749,
+    endLng: -122.4194,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 12,
+    startLat: 35.6762,
+    startLng: 139.6503,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.2,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 12,
+    startLat: 22.3193,
+    startLng: 114.1694,
+    endLat: 34.0522,
+    endLng: -118.2437,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 13,
+    startLat: 52.52,
+    startLng: 13.405,
+    endLat: 22.3193,
+    endLng: 114.1694,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 13,
+    startLat: 11.986597,
+    startLng: 8.571831,
+    endLat: 35.6762,
+    endLng: 139.6503,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 13,
+    startLat: -22.9068,
+    startLng: -43.1729,
+    endLat: -34.6037,
+    endLng: -58.3816,
+    arcAlt: 0.1,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+  {
+    order: 14,
+    startLat: -33.936138,
+    startLng: 18.436529,
+    endLat: 21.395643,
+    endLng: 39.883798,
+    arcAlt: 0.3,
+    color: colors[Math.floor(Math.random() * (colors.length - 1))],
+  },
+];
 
 export default {
   name: 'Features02',
@@ -226,12 +633,16 @@ export default {
     Highlighter,
     HighlighterItem,
     Vue3Lottie,
+    GithubGlobe,
+    Spline
   }, 
   data() {
     return {
       AIJSON,
       SOSJSON,
-      GREENJSON
+      GREENJSON,
+      globeConfig,
+      sampleArcs
     }
   }, 
 }

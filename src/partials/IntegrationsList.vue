@@ -132,7 +132,7 @@
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'Engineering'" :item="item" />
+                <IntegrationCard v-if="item.category === 'Chains'" :item="item" />
               </template>
 
             </div>
@@ -143,7 +143,7 @@
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'No-code'" :item="item" />
+                <IntegrationCard v-if="item.category === 'ZKProvers'" :item="item" />
               </template>
 
             </div>
@@ -154,7 +154,7 @@
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'Collaboration'" :item="item" />
+                <IntegrationCard v-if="item.category === 'AI'" :item="item" />
               </template>
 
             </div>
@@ -165,7 +165,7 @@
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'Productivity'" :item="item" />
+                <IntegrationCard v-if="item.category === 'zkEVM'" :item="item" />
               </template>
 
             </div>
@@ -175,7 +175,7 @@
             <h3 id="DA" class="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">DA</h3>
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'Productivity'" :item="item" />
+                <IntegrationCard v-if="item.category === 'DA'" :item="item" />
               </template>
             </div>
           </div>
@@ -184,7 +184,7 @@
             <h3 id="RaaS" class="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">RaaS</h3>
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'Productivity'" :item="item" />
+                <IntegrationCard v-if="item.category === 'RaaS'" :item="item" />
               </template>
             </div>
           </div>
@@ -193,7 +193,7 @@
             <h3 id="DePIN" class="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">DePIN</h3>
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'Productivity'" :item="item" />
+                <IntegrationCard v-if="item.category === 'DePIN'" :item="item" />
               </template>
             </div>
           </div>
@@ -202,7 +202,7 @@
             <h3 id="RWA" class="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">RWA</h3>
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <template v-for="item in items">
-                <IntegrationCard v-if="item.category === 'Productivity'" :item="item" />
+                <IntegrationCard v-if="item.category === 'RWA'" :item="item" />
               </template>
             </div>
           </div>
@@ -215,31 +215,34 @@
 
 <script>
 import IntegrationCard from './IntegrationCard.vue'
-import IntegrationsImg01 from '../images/integrations-01.svg'
-import IntegrationsImg02 from '../images/integrations-02.svg'
-import IntegrationsImg03 from '../images/integrations-03.svg'
-import IntegrationsImg04 from '../images/integrations-04.svg'
-import IntegrationsImg05 from '../images/integrations-05.svg'
-import IntegrationsImg06 from '../images/integrations-06.svg'
-import IntegrationsImg07 from '../images/integrations-07.svg'
-import IntegrationsImg08 from '../images/integrations-08.svg'
-import IntegrationsImg09 from '../images/integrations-09.svg'
+import IntegrationsImg01 from '../images/bf.webp'
+import IntegrationsImg02 from '../images/snark.svg'
+import IntegrationsImg03 from '../images/fermah.webp'
+import IntegrationsImg04 from '../images/avail.webp'
+import IntegrationsImg05 from '../images/b2.webp'
+import IntegrationsImg06 from '../images/ruhes.webp'
+import IntegrationsImg07 from '../images/bitfinity.webp'
+import IntegrationsImg08 from '../images/o3.webp'
+import IntegrationsImg09 from '../images/cysic.webp'
 import IntegrationsImg10 from '../images/integrations-10.svg'
 import IntegrationsImg11 from '../images/integrations-11.svg'
 import IntegrationsImg12 from '../images/integrations-12.svg'
-import IntegrationsImg13 from '../images/integrations-13.svg'
-import IntegrationsImg14 from '../images/integrations-14.svg'
-import IntegrationsImg15 from '../images/integrations-15.svg'
-import IntegrationsImg16 from '../images/integrations-16.svg'
+import IntegrationsImg13 from '../images/intair.webp'
+import IntegrationsImg14 from '../images/supersight.webp'
+import IntegrationsImg15 from '../images/playai.webp'
+import IntegrationsImg16 from '../images/quillai.webp'
 import IntegrationsImg17 from '../images/integrations-17.svg'
 import IntegrationsImg18 from '../images/integrations-18.svg'
-import IntegrationsImg19 from '../images/integrations-19.svg'
-import IntegrationsImg20 from '../images/integrations-20.svg'
-import IntegrationsImg21 from '../images/integrations-21.svg'
-import IntegrationsImg22 from '../images/integrations-22.svg'
-import IntegrationsImg23 from '../images/integrations-23.svg'
-import IntegrationsImg24 from '../images/integrations-24.svg'
-
+import IntegrationsImg19 from '../images/nexus.webp'
+import IntegrationsImg20 from '../images/zkm.webp'
+import IntegrationsImg21 from '../images/succinct.webp'
+import IntegrationsImg22 from '../images/groth16.webp'
+import IntegrationsImg23 from '../images/nubit.webp'
+import IntegrationsImg24 from '../images/orochi.webp'
+import IntegrationsImg25 from '../images/zeeve.svg'
+import IntegrationsImg26 from '../images/nexus2.webp'
+import IntegrationsImg27 from '../images/u2u.webp'
+import IntegrationsImg28 from '../images/kalp.webp' 
 export default {
   name: 'IntegrationsList',
   components: {
@@ -249,11 +252,11 @@ export default {
     const items = [
       {
         img: IntegrationsImg06,
-        name: 'Vercel',
+        name: 'Runeschain',
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
-        featured: true,
-        category: 'Engineering'
+        featured: false,
+        category: 'Chains'
       },
       {
         img: IntegrationsImg07,
@@ -261,7 +264,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: false,
-        category: 'Engineering'
+        category: 'Chains'
       },
       {
         img: IntegrationsImg04,
@@ -269,7 +272,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Engineering'
+        category: 'Chains'
       },
       {
         img: IntegrationsImg08,
@@ -277,7 +280,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Engineering'
+        category: 'Chains'
       },
       {
         img: IntegrationsImg05,
@@ -285,7 +288,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Engineering'
+        category: 'Chains'
       },
       {
         img: IntegrationsImg01,
@@ -293,7 +296,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Engineering'
+        category: 'Chains'
       },
       {
         img: IntegrationsImg02,
@@ -301,7 +304,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'No-code'
+        category: 'ZKProvers'
       },
       {
         img: IntegrationsImg03,
@@ -309,7 +312,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'No-code'
+        category: 'ZKProvers'
       },
       {
         img: IntegrationsImg09,
@@ -317,31 +320,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'No-code'
-      },
-      {
-        img: IntegrationsImg10,
-        name: 'Jotform',
-        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
-        link: '/integrations-single',
-        featured: false,
-        category: 'No-code'
-      },
-      {
-        img: IntegrationsImg11,
-        name: 'Webflow',
-        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
-        link: '/integrations-single',
-        featured: true,
-        category: 'No-code'
-      },
-      {
-        img: IntegrationsImg12,
-        name: 'Coda',
-        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
-        link: '/integrations-single',
-        featured: false,
-        category: 'No-code'
+        category: 'ZKProvers'
       },
       {
         img: IntegrationsImg13,
@@ -349,7 +328,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Collaboration'
+        category: 'AI'
       },
       {
         img: IntegrationsImg14,
@@ -357,7 +336,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Collaboration'
+        category: 'AI'
       },
       {
         img: IntegrationsImg15,
@@ -365,7 +344,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Collaboration'
+        category: 'AI'
       },
       {
         img: IntegrationsImg16,
@@ -373,23 +352,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Collaboration'
-      },
-      {
-        img: IntegrationsImg17,
-        name: 'Miro',
-        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
-        link: '/integrations-single',
-        featured: true,
-        category: 'Collaboration'
-      },
-      {
-        img: IntegrationsImg18,
-        name: 'Popform',
-        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
-        link: '/integrations-single',
-        featured: true,
-        category: 'Collaboration'
+        category: 'AI'
       },
       {
         img: IntegrationsImg19,
@@ -397,7 +360,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Productivity'
+        category: 'zkEVM'
       },
       {
         img: IntegrationsImg20,
@@ -405,7 +368,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Productivity'
+        category: 'zkEVM'
       },
       {
         img: IntegrationsImg21,
@@ -413,7 +376,7 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Productivity'
+        category: 'zkEVM'
       },
       {
         img: IntegrationsImg22,
@@ -421,23 +384,55 @@ export default {
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Productivity'
+        category: 'zkEVM'
       },
       {
         img: IntegrationsImg23,
-        name: 'WeTransfer',
-        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
-        link: '/integrations-single',
-        featured: false,
-        category: 'Productivity'
-      },
-      {
-        img: IntegrationsImg24,
-        name: 'Hotjar',
+        name: 'Google Drive',
         description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
         link: '/integrations-single',
         featured: true,
-        category: 'Productivity'
+        category: 'DA'
+      },
+      {
+        img: IntegrationsImg24,
+        name: 'InVision',
+        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
+        link: '/integrations-single',
+        featured: true,
+        category: 'DA'
+      },
+      {
+        img: IntegrationsImg25,//zeeve.svg
+        name: 'Google Drive',
+        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
+        link: '/integrations-single',
+        featured: true,
+        category: 'RaaS'
+      },
+      {
+        img: IntegrationsImg26,//nexus2.webp
+        name: 'InVision',
+        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
+        link: '/integrations-single',
+        featured: true,
+        category: 'RaaS'
+      },
+      {
+        img: IntegrationsImg27,//u2u.webp
+        name: 'InVision',
+        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
+        link: '/integrations-single',
+        featured: true,
+        category: 'DePIN'
+      },
+      {
+        img: IntegrationsImg28,//kalp.webp
+        name: 'InVision',
+        description: 'Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.',
+        link: '/integrations-single',
+        featured: true, 
+        category: 'RWA'
       }
     ]
 

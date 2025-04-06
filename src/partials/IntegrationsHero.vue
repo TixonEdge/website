@@ -7,7 +7,7 @@
     </div>
 
     <!-- Opacity layer -->
-    <div class="absolute inset-0 bg-slate-900 opacity-60 -z-10" aria-hidden="true"></div>
+    <div class="absolute inset-0 bg-black opacity-60 -z-10" aria-hidden="true"></div>
 
     <!-- Radial gradient -->
     <div class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-[800px] aspect-square" aria-hidden="true">

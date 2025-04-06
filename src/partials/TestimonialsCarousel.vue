@@ -19,7 +19,7 @@
             <Highlighter class="swiper-wrapper w-fit" :refresh="swiperInitialized">
               <!-- Carousel items -->
               <HighlighterItem class="swiper-slide h-auto group/slide">
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <!-- Particles animation -->
                   <Particles class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" :quantity="3" :refresh="swiperInitialized" />
                   <!-- Radial gradient -->
@@ -39,7 +39,7 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem class="swiper-slide h-auto group/slide">
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <!-- Particles animation -->
                   <Particles class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" :quantity="3" :refresh="swiperInitialized" />
                   <!-- Radial gradient -->
@@ -59,7 +59,7 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem class="swiper-slide h-auto group/slide">
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <!-- Particles animation -->
                   <Particles class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" :quantity="3" :refresh="swiperInitialized" />
                   <!-- Radial gradient -->
@@ -79,7 +79,7 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem class="swiper-slide h-auto group/slide">
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <!-- Particles animation -->
                   <Particles class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" :quantity="3" :refresh="swiperInitialized" />
                   <!-- Radial gradient -->
@@ -99,7 +99,7 @@
                 </div>
               </HighlighterItem>
               <HighlighterItem class="swiper-slide h-auto group/slide">
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   <!-- Particles animation -->
                   <Particles class="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" :quantity="3" :refresh="swiperInitialized" />
                   <!-- Radial gradient -->

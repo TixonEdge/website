@@ -32,7 +32,7 @@
               <router-link class="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" to="/changelog">Changelog</router-link>
             </li> -->
             <li>
-              <router-link class="font-medium text-lg text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" to="/about">Docs</router-link>
+              <router-link class="font-medium text-lg text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" to="#">Docs</router-link>
             </li>
             <li>
               <a class="font-medium text-lg text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="https://tixonedge.medium.com/" target="_blank">Blog</a>
@@ -59,11 +59,11 @@
             <router-link class="font-medium text-sm text-slate-300 hover:text-white whitespace-nowrap transition duration-150 ease-in-out" to="/signin">Sign in</router-link>
           </li> -->
           <li class="ml-6">
-            <router-link class="btn-sm md:btn-lg text-slate-300 hover:text-white transition duration-150 ease-in-out w-full group [background:linear-gradient(var(--color-slate-900),var(--color-slate-900))_padding-box,conic-gradient(var(--color-slate-400),var(--color-slate-700)_25%,var(--color-slate-700)_75%,var(--color-slate-400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none" to="/signup">
+            <a class="btn-sm md:btn-lg text-white transition duration-150 ease-in-out w-full border border-white group relative before:absolute before:inset-0  before:rounded-full before:pointer-events-none" href="https://guild.xyz/tixonedge" target="_blank">
               <span class="relative inline-flex items-center">
                 Run Node <span class="tracking-normal text-green-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </span>
-            </router-link>
+            </a>
           </li>
         </ul>
 
@@ -88,7 +88,7 @@
 
           <!-- Mobile navigation -->
           <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" ref="mobileNav" :style="[mobileNavOpen ? { maxHeight: $refs.mobileNav.scrollHeight + 'px', opacity: 1 } : { maxHeight: 0, opacity: .8 }]" @click.outside="expanded = false" @keydown.escape.window="expanded = false">
-            <ul class="border border-transparent [background:linear-gradient(var(--color-slate-900),var(--color-slate-900))_padding-box,conic-gradient(var(--color-slate-400),var(--color-slate-700)_25%,var(--color-slate-700)_75%,var(--color-slate-400)_100%)_border-box] rounded-lg px-4 py-1.5">
+            <ul class="bg-black/25 backdrop-blur-sm border border-white/10 rounded-lg px-4 py-1.5">
               <!-- <li>
                 <router-link class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" to="/about">About</router-link>
               </li>
@@ -105,7 +105,7 @@
                 <router-link class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" to="/changelog">Changelog</router-link>
               </li> -->
               <li>
-              <router-link class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" to="/about">Docs</router-link>
+              <a class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="https://tixonedge.medium.com/" target="_blank">Docs</a>
             </li>
             <li>
               <a class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="https://tixonedge.medium.com/" target="_blank">Blog</a>

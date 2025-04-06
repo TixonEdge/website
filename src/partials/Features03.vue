@@ -27,7 +27,7 @@
           <div data-aos="fade-down">
             <Highlighter class="group">
               <HighlighterItem>
-                <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                   
                   <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
                     <div class="absolute inset-0 translate-z-0 bg-green-500 rounded-full blur-[120px]"></div>

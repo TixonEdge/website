@@ -20,28 +20,28 @@
             <div class="md:w-7/12 lg:w-1/2 order-1 md:order-none max-md:text-center" data-aos="fade-down">
               <!-- Content #1 -->
               <div>
-                <div class="inline-flex font-medium bg-clip-text text-transparent bg-linear-to-r from-green-500 to-purple-200 pb-3">先进技术驱动平台</div>
+                <div class="inline-flex font-medium bg-clip-text text-transparent bg-linear-to-r from-green-500 to-purple-200 pb-3">Advanced technology-driven platform.</div>
               </div>
-              <h3 class="h3 bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">下一代去中心化物联网平台：轻量、高效、隐私保护的边缘计算架构</h3>
-              <p class="text-lg text-slate-400 mb-8">基于轻节点自适应协议（LNAP）、混合共识机制（PoQ + DPoS）与隐私增强型数据市场，实现低功耗、高可靠、动态资源调度的去中心化物联网生态系统</p>
+              <h3 class="h3 bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">Next-gen decentralized IoT platform</h3>
+              <p class="text-lg text-slate-400 mb-8">Lightweight, efficient, privacy-preserving edge computing,A decentralized IoT ecosystem enabled by the Lightweight Node Adaptive Protocol (LNAP), a hybrid consensus mechanism (PoQ + DPoS), and a privacy-enhanced data marketplace—achieving low power consumption, high reliability, and dynamic resource scheduling.</p>
               <div class="mt-8 max-w-xs max-md:mx-auto space-y-2">
                 <button class="flex items-center text-sm font-medium text-slate-50 rounded-sm border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100" :class="tab !== '1' ? 'border-slate-700 opacity-50' : 'border-green-700 shadow-sm shadow-green-500/25'" @click.prevent="tab = '1'">
                   <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                     <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12Zm0 14V2H2v12h12Zm-3-7H5a1 1 0 1 1 0-2h6a1 1 0 0 1 0 2Zm0 4H5a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2Z" />
                   </svg>
-                  <span>轻节点自适应协议（LNAP）</span>
+                  <span>Lightweight Node Adaptive Protocol (LNAP).</span>
                 </button>
                 <button class="flex items-center text-sm font-medium text-slate-50 rounded-sm border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100" :class="tab !== '2' ? 'border-slate-700 opacity-50' : 'border-green-700 shadow-sm shadow-green-500/25'" @click.prevent="tab = '2'">
                   <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                     <path d="M2 6H0V2a2 2 0 0 1 2-2h4v2H2v4ZM16 6h-2V2h-4V0h4a2 2 0 0 1 2 2v4ZM14 16h-4v-2h4v-4h2v4a2 2 0 0 1-2 2ZM6 16H2a2 2 0 0 1-2-2v-4h2v4h4v2Z" />
                   </svg>
-                  <span>混合共识机制（PoQ + DPoS）</span>
+                  <span>Hybrid consensus mechanism (PoQ + DPoS).</span>
                 </button>
                 <button class="flex items-center text-sm font-medium text-slate-50 rounded-sm border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100" :class="tab !== '3' ? 'border-slate-700 opacity-50' : 'border-green-700 shadow-sm shadow-green-500/25'" @click.prevent="tab = '3'">
                   <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                     <path d="M14.3.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-8 8c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l8-8ZM15 7c.6 0 1 .4 1 1 0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8c.6 0 1 .4 1 1s-.4 1-1 1C4.7 2 2 4.7 2 8s2.7 6 6 6 6-2.7 6-6c0-.6.4-1 1-1Z" />
                   </svg>
-                  <span>动态资源调度引擎</span>
+                  <span>Dynamic resource scheduling engine.</span>
                 </button>
               </div>
             </div>

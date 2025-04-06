@@ -42,7 +42,7 @@
                 </a>
               </li>
               <li class="ml-2">
-                <a class="flex justify-center items-center text-green-500 hover:text-purple-400 transition duration-150 ease-in-out" href="#0" aria-label="Github">
+                <a class="flex justify-center items-center text-green-500 hover:text-purple-400 transition duration-150 ease-in-out" href="https://github.com/TixonEdge" target="_blank" aria-label="Github">
                   <svg class="w-12 h-12 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
                   </svg>
@@ -77,13 +77,13 @@
           <h6 class="text-sm text-slate-50 font-medium mb-2">Explore</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#">Whitepaper</a>
+              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" >Whitepaper</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#">Docs</a>
+              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" >Docs</a>
             </li>
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#">Testnet Explorer</a>
+              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" >Testnet Explorer</a>
             </li>
           </ul>
         </div>
@@ -95,11 +95,15 @@
               <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="/about">About us</a>
             </li> -->
             <li>
+              <router-link class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" to="/ecosystem">Ecosystem</router-link>
+            </li>
+            <li>
               <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="mailto:contact@tixonedge.com">Contact Us</a>
             </li>
             <li>
               <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://tixonedge.medium.com/" target="_blank">Blog</a>
             </li>
+            
           </ul>
         </div>
 

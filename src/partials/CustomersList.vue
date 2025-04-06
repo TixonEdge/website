@@ -6,7 +6,7 @@
         <div>
           <router-link :to="item.link">
             <HighlighterItem>
-              <div class="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+              <div class="relative h-full bg-black rounded-[inherit] z-20 overflow-hidden">
                 <!-- Particles animation -->
                 <Particles class="absolute inset-0 -z-10" :quantity="3" />
                 <div class="flex items-center justify-center">
