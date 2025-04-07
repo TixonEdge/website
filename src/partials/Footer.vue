@@ -77,10 +77,7 @@
           <h6 class="text-sm text-slate-50 font-medium mb-2">Explore</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" >Whitepaper</a>
-            </li>
-            <li>
-              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" >Docs</a>
+              <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://tixonedge.gitbook.io/docs" target="_blank">Docs</a>
             </li>
             <li>
               <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" >Testnet Explorer</a>

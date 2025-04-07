@@ -60,7 +60,7 @@
                       <div class="mb-5">
                         <div>
                           <h3 class="inline-flex text-xl font-bold bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">Distributed AI training</h3>
-                          <p class="text-slate-400">Startups leverage the idle computing power of 100,000 smartphones worldwide to train lightweight AI models, reducing costs by 70% compared to cloud computing.</p>
+                          <p class="text-slate-400">Robotics startups leverage the idle computing power of 100,000 smartphones worldwide to train efficient, lightweight AI models for robots, reducing costs by 70% compared to traditional cloud computing.</p>
                         </div>
                       </div>
                       <!-- <div>

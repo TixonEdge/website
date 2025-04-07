@@ -32,7 +32,7 @@
               <router-link class="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" to="/changelog">Changelog</router-link>
             </li> -->
             <li>
-              <router-link class="font-medium text-lg text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" to="#">Docs</router-link>
+              <a class="font-medium text-lg text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="https://tixonedge.gitbook.io/docs" target="_blank">Docs</a>
             </li>
             <li>
               <a class="font-medium text-lg text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out" href="https://tixonedge.medium.com/" target="_blank">Blog</a>
@@ -61,7 +61,7 @@
           <li class="ml-6">
             <a class="btn-sm md:btn-lg text-white transition duration-150 ease-in-out w-full border border-white group relative before:absolute before:inset-0  before:rounded-full before:pointer-events-none" href="https://guild.xyz/tixonedge" target="_blank">
               <span class="relative inline-flex items-center">
-                Run Node <span class="tracking-normal text-green-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                Run Light Node <span class="tracking-normal text-green-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </span>
             </a>
           </li>
@@ -105,7 +105,7 @@
                 <router-link class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" to="/changelog">Changelog</router-link>
               </li> -->
               <li>
-              <a class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="https://tixonedge.medium.com/" target="_blank">Docs</a>
+              <a class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="https://tixonedge.gitbook.io/docs" target="_blank">Docs</a>
             </li>
             <li>
               <a class="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="https://tixonedge.medium.com/" target="_blank">Blog</a>
